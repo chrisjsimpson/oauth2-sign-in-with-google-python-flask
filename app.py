@@ -24,7 +24,7 @@ def signin():
 
 
 @app.route("/withgoogle")
-def google():
+def google_signin():
 
     state = str(os.urandom(12))
     session["state"] = state
